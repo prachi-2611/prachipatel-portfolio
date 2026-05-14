@@ -1,16 +1,36 @@
-# React + Vite
+Prachi Patel Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website built using React, Vite, and Tailwind CSS.  
+This portfolio showcases my skills, education, projects, and contact information with smooth animations and a modern UI design.
 
-Currently, two official plugins are available:
+Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://prachipatel-portfolio.vercel.app/
 
-## React Compiler
+Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Modern and Clean UI Design
+- Fully Responsive Layout (Mobile + Desktop)
+- Smooth Animations and Transitions
+- Glassmorphism UI Effects
+- Projects Showcase Section
+- Skills & Tech Stack Section
+- Education Timeline
+- Contact Form using EmailJS
+- Resume Download Option
+- Social Media Integration
 
-## Expanding the ESLint configuration
+Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+- EmailJS
+- React Icons
+- Lucide React
+
+Project Structure
+
+src/ (components, layout, sections, main files)  
+public/ (profile image, resume, background, index.html)
