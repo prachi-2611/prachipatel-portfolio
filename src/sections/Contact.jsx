@@ -245,6 +245,21 @@ export const Contact = () => {
 
           {/* Contact Info */}
           <div className="space-y-6 animate-fade-in animation-delay-400">
+          <div className="glass rounded-3xl p-8 border border-primary/30">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
+
+                <span className="font-medium">
+                  Available for Opportunities
+                </span>
+              </div>
+
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                I’m currently open to internships, freelance work, and exciting
+                opportunities where I can contribute, learn, and grow as a Full
+                Stack Developer.
+              </p>
+            </div>
             <div className="glass rounded-3xl p-8 border border-primary/30">
               <h3 className="text-xl font-semibold mb-6">
                 Contact Information
@@ -274,21 +289,7 @@ export const Contact = () => {
             </div>
 
             {/* Availability Card */}
-            <div className="glass rounded-3xl p-8 border border-primary/30">
-              <div className="flex items-center gap-3 mb-4">
-                <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-
-                <span className="font-medium">
-                  Available for Opportunities
-                </span>
-              </div>
-
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                I’m currently open to internships, freelance work, and exciting
-                opportunities where I can contribute, learn, and grow as a Full
-                Stack Developer.
-              </p>
-            </div>
+            
           </div>
         </div>
       </div>
