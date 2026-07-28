@@ -14,21 +14,22 @@ const projects = [
       "JWT",
       "REST APIs",
     ],
-    link: "#",
+    link: "https://github.com/prachi-2611/agroconnect",
   },
   {
-    title: "HireHub – Job Portal Platform",
+    title: "MediSure360 –  Pharmacy Inventory & Billing Management System ",
     description:
-      "Built a full-stack job portal allowing users to register, login, explore job listings, and apply for jobs through a responsive and user-friendly interface.",
+      "Developed a responsive pharmacy management system with inventory tracking, billing, analytics dashboards, and secure authentication. Integrated REST APIs using Axios, implemented role-based access control with JWT, and optimized the UI for desktop and mobile devices.",
     tags: [
       "React",
       "Node.js",
       "Express.js",
       "MongoDB",
       "JWT",
+      "Chart.js",
       "REST APIs",
     ],
-    link: "#",
+    link: "https://github.com/prachi-2611/MediSure360",
   },
   {
     title: "Hawk-Eye Ball Tracking System",
@@ -88,12 +89,19 @@ export const Projects = () => {
                     {project.title}
                   </h3>
 
+                  <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <ArrowUpRight
-                    className="w-5 h-5 text-muted-foreground 
+                    className="w-5 h-5 text-muted-foreground
                     group-hover:text-primary
-                    group-hover:translate-x-1 
-                    group-hover:-translate-y-1 transition-all"
+                    group-hover:translate-x-1
+                    group-hover:-translate-y-1
+                    transition-all cursor-pointer"
                   />
+                </a>
                 </div>
 
                 <p className="text-muted-foreground leading-relaxed">
